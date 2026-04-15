@@ -20,9 +20,12 @@ All sources use **datacenter exit nodes** — none provide residential IPs. For 
 ## Build
 
 ```sh
-go build -o ovpn2 .
+go build -o ovpn2
 ```
+## Run directly
 
+run it directly = go run ovpn2.go
+```
 Requires Go 1.21+. No external dependencies.
 
 ---
