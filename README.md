@@ -16,15 +16,16 @@ All sources use **datacenter exit nodes** — none provide residential IPs. For 
 | 4 | **IPSpeed** | GitHub mirror | Varies per config (embedded or none) |
 
 ---
+## Run directly
+```
+go run ovpn2.go
+```
 
 ## Build
 
 ```sh
 go build -o ovpn2
-```
-## Run directly
 
-run it directly = go run ovpn2.go
 ```
 Requires Go 1.21+. No external dependencies.
 
